@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.29.0)
 project(planning)
 set(CMAKE_CXX_STANDARD 17)
+
+#变量和目录设置
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)#动态库和exe文件都指定到bin目录下面
 #CMAKE_LIBRARY_OUTPUT_DIRECTORY  ##linux平台生成动态库和exe文件
 #CMAKE_ARCHIVE_OUTPUT_DIRECTORY  #静态库
